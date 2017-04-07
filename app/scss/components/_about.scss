@@ -1,0 +1,22 @@
+.about{
+	margin: 5rem 0;
+	&-wraper{
+		display: table-cell;
+	    vertical-align: middle;
+	    height: 400px;
+		h2{
+			font-size:3rem;
+			margin-bottom: 2rem;  
+		} 	
+		p{
+			font-size:1rem;
+			margin-bottom: 2rem; 
+		}
+	}
+	&-image{
+		height: 400px;
+		overflow: hidden;  
+		img{ 
+		}
+	}
+}

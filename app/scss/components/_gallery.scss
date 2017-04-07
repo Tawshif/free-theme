@@ -1,0 +1,52 @@
+.gallery{
+	&-header{
+		border-top: 1px solid $gray-lighter; 
+		text-align: center; 
+		h3{
+			font-size: 3rem; 
+			margin: 3rem 0;
+			color: $gray-light; 
+		}
+		p{
+			font-size: 1rem; 
+			margin-bottom: 4rem;
+			color: $gray-light; 
+		}	
+	}
+	&-body{
+		.card{
+			text-align: center;
+			margin-bottom: 3rem;
+			border-color: $gray-lighter;
+			box-shadow: 0 1px 3px #adadad;
+			&-icon{
+				@include size(5rem, 5rem);
+				display: inline-block;
+				margin:3rem auto 0rem;
+				background: $blue; 
+				border-radius: 50%;
+				text-align: center ;
+				position: relative;
+				box-shadow: 0px 1px 3px rgb(140, 141, 199); 
+				i{
+					color: #FFF;
+					font-size: 3rem;  
+					position: absolute ;
+					top: 50%;
+				    left: 50%;
+				    transform: translate(-50%, -50%);
+     			}
+			}
+			&-title{
+				margin:1.5rem 0;
+				font-size: 1.5rem; 
+				color: $gray; 
+			}
+			&-text{
+				font-size: 1rem; 
+				margin-bottom: 2rem; 
+				color: $gray-light; 
+			}
+		}
+	}
+}
